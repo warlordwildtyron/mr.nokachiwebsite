@@ -1,0 +1,37 @@
+/*Media Queries This will target the screen size of 
+mobile phones supported by CCS3*/
+
+/*Large Devices(Desktops & Laptops*/
+@media(min-width:1200px){
+
+    #Home_heading h1{
+        color:lightblue;
+
+    }
+}
+
+
+/*Medium Devices(landscape Tablets & Netbook & Medium Desktop*/
+@media(min-width:992px) and (max-width:1199px){
+    #Home_heading h1{
+        color:lightcoral;
+
+    }
+}
+
+/*Small Devices (portrait Tablets & Small Desktops*/
+@media(min-width:768px) and (max-width:991px){
+    #Home_heading h1{
+        color:yellow;
+
+
+    }
+} 
+
+@media(max-width:767px){
+    #Home_heading h1{
+        color:yellow;
+
+
+    }
+}
